@@ -1,0 +1,17 @@
+# Ignore macOS system files
+.DS_Store
+**/.DS_Store
+
+# Ignore Python bytecode directories
+__pycache__/
+**/__pycache__/
+*.pyc
+# Virtual environment
+venv/
+.venv/
+
+# Flask uploaded/generated images
+NST_Code/static/uploads/*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
